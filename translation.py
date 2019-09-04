@@ -161,7 +161,6 @@ if (args.adn==None):
 		seq=[""]*len(args.arn)
 		args.arn=(args.arn).upper()
 		seq=args.arn	
-		next()
 	#Con ADN (si existe tanto ADN como ARN, nos quedamos con el ARN)
 else:
 	seq=[""]*len(args.adn)
